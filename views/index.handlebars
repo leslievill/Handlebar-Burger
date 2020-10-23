@@ -1,9 +1,9 @@
 <div class="flexbox-container">
 
         <div class="flexbox-item-1">            
-            <img src="http://pngimg.com/uploads/burger_sandwich/burger_sandwich_PNG4160.png" alt="burgerImg" id="burgerImg">
+            
             <ul id="uneaten">
-                <h2> Devoure Burger!!! </h2>
+                <h2> Devour Burger!!! </h2>
                 {{#each burger}}
                 {{#unless devoured}}
                 {{> burger/burger-block devoured=false}}
@@ -15,7 +15,7 @@
 
         <div class="flexbox-item-2">
             
-            <img src="http://pngimg.com/uploads/burger_sandwich/burger_sandwich_PNG4160.png" alt="burgerImg" id="burgerImg">
+            <img src="http://pngimg.com/uploads/mcdonalds/mcdonalds_PNG3.png" alt="MDImg" id="burgerImg">
     
             <h2>Eat Da Burger!!!</h2>
         
@@ -30,9 +30,9 @@
             
         </div>
         <div class="flexbox-item-3">
-            <img src="http://pngimg.com/uploads/burger_sandwich/burger_sandwich_PNG4160.png" alt="burgerImg" id="burgerImg">
+            
             <ul id="eaten">
-                <h2>You have devoured this burgers: </h2>
+                <h2>Burgers you have devoured: </h2>
                 {{#each burger}}
                 {{#if devoured}}
                 {{!-- > means you're looking in the partials directory --}}
