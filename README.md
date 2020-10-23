@@ -8,7 +8,7 @@ Each burger in the waiting area also has a "Devour it!" button. When the user cl
 
  ## Web application Image
 
- ![Site image](burger.png)
+ ![Site image](./burger.png)
 
  ## Installation
 Run:
